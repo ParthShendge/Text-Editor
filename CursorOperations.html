@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+    </style>
+  </head>
+  <body>
+    <div id="upperlayer" contenteditable="true"></div>
+    <div id="display"></div>
+    <script>
+// Add keywords here
+const HTML_Keywords = ["<html></html>", "<head></head>", "<body></body>", "<meta>", "<style></style>", "<title></title>",
+"<link /><", "<div></div>", "<span></span>","<script><\/script>", "<form></form>", "<input />", "<button></button>",
+"<table></table>", "<tr></tr>", "<td></td>", "<th></th>", "<br>", "<hr>", "<ol></ol>", "<ul></ul>", "<li></li>", 
+"<a href=\"\" ></a>", "<iframe></iframe>", "<header></header>", "<footer></footer>", "<canvas></canvas>"];
+const JS_Keywords =[["let", "var", "const", "function"],
+["if(){\n\n}", "else{\n\n}", "else if(){\n\n}", "switch(){\n\n}", "case: ",
+"for(){\n\n}", "while(){\n\n}", "do(){\n\n}", "return"]];
+let fileName = "index.html";
+let prevText = "";
+let newText;
+
+    </script>
+  </body>
+</html>
